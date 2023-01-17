@@ -6,12 +6,13 @@ int main()
     long long int sum = 0;
     long long int n;
     cin >> n;
-    for(long long int i = 1; i <=n ;i++)
+    if(n%2 == 1)
     {
-        if(i%2 == 1)
-            sum = sum - i;
-        else
-            sum = sum + i;
+        sum = -(n+1)/2;
+    }
+    else
+    {
+        sum = n/2;
     }
     cout << sum << endl;
     return 0;
