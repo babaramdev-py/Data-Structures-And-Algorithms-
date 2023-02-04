@@ -84,7 +84,7 @@ int main()
         cout << temp[i] << " ";
     }
     cout << endl;
-    vector<int> temp2 = temp;
+    vector<int> temp2 = temp; // O(n) time complexity
     for (int i = 0; i < temp.size(); i++)
     {
         cout << temp2[i] << " ";
