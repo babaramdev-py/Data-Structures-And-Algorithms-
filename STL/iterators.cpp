@@ -16,5 +16,13 @@ int main()
     {
         cout << pairt->first << " " << pairt->second << endl;
     }
+
+
+    vector<int> v = {1,2,3,5,6};
+    vector<int>:: iterator it; // iterator to the type of container you want to iterate over
+    for(it = v.begin(); it!=v.end(); it++)
+    {
+        cout << *it << endl; 
+    }
     return 0;
 }
