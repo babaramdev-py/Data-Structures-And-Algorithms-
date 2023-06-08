@@ -16,6 +16,10 @@ int main()
     }
     cout << endl;
 
-    cout << temp == original;
+    if(temp == original)
+    {
+        cout << 1 << endl;
+    }
+    
     return 0;
 }
