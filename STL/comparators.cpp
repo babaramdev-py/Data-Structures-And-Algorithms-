@@ -17,7 +17,7 @@ int find(int x, int par[])
     {
         return x;
     }
-    find(par[x], par);
+    return find(par[x], par);
 }
 void Union(int e1, int e2, int par[], int rank[])
 {
